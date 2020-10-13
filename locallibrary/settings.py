@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'm!qaau_zfeqw)mttafmd@df$)*cb-$
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['fast-spire-00538.herokuapp.com']
+ALLOWED_HOSTS = ['fast-spire-00538.herokuapp.com','127.0.0.1']
 
 
 # Application definition
